@@ -47,7 +47,7 @@ const ProjectSection = ({ openModal, setOpenModal }) => {
             }}
             active={toggle === "web app"}
           >
-            Web App's
+            Web App&apos;s
           </TabButton>
 
           <TabButton
