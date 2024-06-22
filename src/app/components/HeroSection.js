@@ -25,11 +25,11 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 "Harsh",
-                1000,
+                3000,
                 "Software Developer",
-                1000,
+                3000,
                 "Programmer",
-                1000,
+                3000,
               ]}
               wrapper="span"
               speed={50}

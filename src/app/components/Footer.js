@@ -17,16 +17,16 @@ const FooterContainer = styled.div`
 
 function Footer() {
   return (
-    <div className="w-full flex justify-center bg-cardOverlay ">
+    <div className="w-full flex justify-center bg-cardOverlay p-6">
       <div className="w-full max-w-7xl flex flex-col gap-2 items-center p-4 text-text-primary">
         <Link href={"/"} className="mb-8">
           <div className="font-extrabold text-5xl cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-800">
             &lt;Harsh Bansal/&gt;
           </div>
         </Link>
-        <div className="flex w-full mr-3 items-center justify-center gap-3">
+        <div className="flex w-full mr-3 items-center justify-center gap-3 px-3">
           <Link
-            className="text-white no-underline text-lg transition-colors duration-200 ease-in-out hover:text-blue-400 md:text-base"
+            className="text-white no-underline md:text-lg  transition-colors duration-200 ease-in-out hover:text-blue-400 sm:text-base"
             href="#about"
           >
             About
