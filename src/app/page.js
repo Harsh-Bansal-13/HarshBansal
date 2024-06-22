@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-gradient-to-br from-gray-900 via-gray-950 to-gray-900 ">
       <Navbar />
-      <div className="mx-auto p-8  container px-12  lg:px-24 mt-20">
+      <div className="mx-auto w-full p-8  container px-12  lg:px-24 mt-20">
         <HeroSection />
         <AboutSection />
         <ProjectSection openModal={openModal} setOpenModal={setOpenModal} />
