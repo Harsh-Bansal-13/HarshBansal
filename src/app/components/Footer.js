@@ -71,7 +71,7 @@ function Footer() {
             href={Bio.github}
             target="display"
           >
-            <GithubIcon />
+            <GitHubIcon />
           </Link>
           <Link
             className="inline-block mx-4 text-lg text-slate-200 transition-colors duration-200 ease-in-out hover:text-white"
