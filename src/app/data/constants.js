@@ -346,7 +346,28 @@ export const projects = [
     github: "https://github.com/Harsh-Bansal-13/FruitsWala-version-2.1",
     webapp: "https://fruits-wala.vercel.app/",
   },
-
+  {
+    id: 13,
+    title: "Blogging App",
+    date: "January 2023- February 2023",
+    description:
+      "I developed a robust blogging application that empowers users to create, share, edit, search, and delete posts effortlessly. Built on a MERN stack (MongoDB, Express.js, React.js, Node.js), the app features a user-friendly interface where users can seamlessly navigate through various functionalities. Users can create rich content posts, categorize them for easy navigation, and share posts with others via email. The app includes robust authentication using JWT tokens for secure user sessions. It's designed to be responsive and scalable, making it suitable for a wide range of blogging needs.",
+    image:
+      "https://res.cloudinary.com/djearclq9/image/upload/v1719686779/a5gibas7chi787amnul3.png",
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Mongoose",
+      "MongoDB",
+      "Tailwind CSS",
+      "bcrypt",
+      "jwt",
+    ],
+    category: "web app",
+    github: "https://github.com/Harsh-Bansal-13/Blogging-app",
+    webapp: "https://blogging-app-ashy-iota.vercel.app/",
+  },
   {
     id: 2,
     title: "Daily Journal",
