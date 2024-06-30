@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Harsh from "../images/Harsh.jpg";
+import Harsh from "../images/Harsh_Bansal2.jpg.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion, useAnimation } from "framer-motion";
 import { Bio } from "../data/constants";
