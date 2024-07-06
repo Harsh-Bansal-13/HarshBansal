@@ -34,7 +34,7 @@ const CodingProfile = () => {
         "https://res.cloudinary.com/djearclq9/image/upload/v1718644274/xlphfpjf8bbn83cj3zgs.jpg",
       tag: ["All", "Web"],
       gitUrl: "/",
-      previewUrl: "https://www.codechef.com/users/harshbansal130",
+      previewUrl: "https://www.codechef.com/users/coder_guy_13",
     },
     {
       id: 3,
