@@ -15,7 +15,11 @@
     --background-end-rgb: 255, 255, 255;
   }
 }
-
+html{
+  /* background: linear-gradient(to bottom right, #111827, #0f0f0f, #111827); */
+  /* background: transparent; */
+  background-color: #030913;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
