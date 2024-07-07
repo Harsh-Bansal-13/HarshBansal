@@ -55,15 +55,15 @@ const AboutSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="hidden col-span-1 mb-10 mx-auto h-full w-full md:flex md:items-center md:justify-center lg:items-start lg:justify-start"
+          className="col-span-1 mb-10 mx-auto h-full w-full md:flex md:items-center md:justify-center lg:items-start lg:justify-start"
         >
           <motion.div
             animate={controls}
-            className="rounded-3xl shadow-blue-600 shadow-md"
+            className="rounded-3xl flex items-center justify-center"
           >
             <Image
               src={aboutImage}
-              className="rounded-3xl"
+              className="rounded-3xl shadow-blue-600 shadow-md"
               width={300}
               height={300}
               alt="About Image"
