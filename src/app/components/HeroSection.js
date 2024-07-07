@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Harsh from "../images/Harsh_Bansal2.jpg.png";
@@ -8,6 +8,19 @@ import { Bio } from "../data/constants";
 
 const HeroSection = () => {
   const controls = useAnimation();
+
+  useEffect(() => {
+    controls.start({
+      y: [0, -14, 0], // Y-axis movement
+      scale: [1.001, 1.001, 1.001], // Scale effect
+      transition: {
+        duration: 3, // Duration of the animation
+        repeat: Infinity, // Repeat the animation infinitely
+        ease: "easeInOut", // Easing function
+      },
+    });
+  }, [controls]);
+
   return (
     <section id="HeroSection" className="p-0 lg:p-10">
       <div className="hidden lg:grid lg:grid-cols-12 ">
@@ -67,17 +80,6 @@ const HeroSection = () => {
         >
           <motion.div
             animate={controls}
-            onMouseLeave={() =>
-              controls.start({
-                y: [0, -14, 0], // Y-axis movement
-                scale: [1.001, 1.001, 1.001], // Scale effect
-                transition: {
-                  duration: 3, // Duration of the animation
-                  repeat: Infinity, // Repeat the animation infinitely
-                  ease: "easeInOut", // Easing function
-                },
-              })
-            }
             className="rounded-full w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] relative mx-auto"
           >
             <Image
@@ -99,17 +101,6 @@ const HeroSection = () => {
         >
           <motion.div
             animate={controls}
-            onMouseLeave={() =>
-              controls.start({
-                y: [0, -14, 0], // Y-axis movement
-                scale: [1.001, 1.001, 1.001], // Scale effect
-                transition: {
-                  duration: 3, // Duration of the animation
-                  repeat: Infinity, // Repeat the animation infinitely
-                  ease: "easeInOut", // Easing function
-                },
-              })
-            }
             className="rounded-full w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] relative mx-auto"
           >
             <Image

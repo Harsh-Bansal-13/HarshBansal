@@ -1,4 +1,4 @@
-import React, { useState, useTransition } from "react";
+import React, { useState, useTransition, useEffect } from "react";
 import aboutImage from "../images/AboutImage.jpg";
 import Image from "next/image";
 import TabButton from "./TabButton";
@@ -6,23 +6,35 @@ import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
 import { motion, useAnimation } from "framer-motion";
+
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
+  const controls = useAnimation();
+
+  useEffect(() => {
+    controls.start({
+      y: [0, -14, 0], // Y-axis movement
+      scale: [1.001, 1.001, 1.001], // Scale effect
+      transition: {
+        duration: 3, // Duration of the animation
+        repeat: Infinity, // Repeat the animation infinitely
+        ease: "easeInOut", // Easing function
+      },
+    });
+  }, [controls]);
+
   const handleTabChange = (id) => {
     startTransition(() => {
       setTab(id);
     });
   };
+
   const TAB_DATA = [
     {
       title: "Skills",
       id: "skills",
-      content: (
-        // <div className="flex flex-wrap gap-2">
-        <Skills></Skills>
-        // </div>
-      ),
+      content: <Skills></Skills>,
     },
     {
       title: "Education",
@@ -35,7 +47,7 @@ const AboutSection = () => {
       content: <Experience></Experience>,
     },
   ];
-  const controls = useAnimation();
+
   return (
     <section id="about" className="text-white pt-14">
       <div className="gap-10 md:grid md:grid-cols-3 items-center py-8 px-4 sm:py-14 xl:px-16">
@@ -45,27 +57,17 @@ const AboutSection = () => {
           transition={{ duration: 0.5 }}
           className="hidden col-span-1 mb-10 mx-auto h-full w-full md:flex md:items-center md:justify-center lg:items-start lg:justify-start"
         >
-          {" "}
           <motion.div
             animate={controls}
-            onMouseLeave={() =>
-              controls.start({
-                y: [0, -14, 0], // Y-axis movement
-                scale: [1.001, 1.001, 1.001], // Scale effect
-                transition: {
-                  duration: 3, // Duration of the animation
-                  repeat: Infinity, // Repeat the animation infinitely
-                  ease: "easeInOut", // Easing function
-                },
-              })
-            }
+            className="rounded-3xl shadow-blue-600 shadow-md"
           >
             <Image
               src={aboutImage}
-              className="rounded-3xl shadow-blue-600 shadow-md"
+              className="rounded-3xl"
               width={300}
               height={300}
-            ></Image>
+              alt="About Image"
+            />
           </motion.div>
         </motion.div>
         <div className="col-span-2 flex flex-col gap-3">
@@ -79,7 +81,6 @@ const AboutSection = () => {
               About me
             </h2>
             <p>
-              {" "}
               I’m a pre-final year BTech student at NIT Kurukshetra,
               specializing in Information Technology. My passion lies in
               problem-solving and exploring innovative solutions. I thrive on
