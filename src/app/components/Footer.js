@@ -24,7 +24,7 @@ function Footer() {
             &lt;Harsh Bansal/&gt;
           </div>
         </Link>
-        <div className="flex w-full mr-3 items-center justify-center gap-3 px-3">
+        <div className="flex w-full items-center justify-center gap-3 px-4">
           <Link
             className="text-white no-underline md:text-lg  transition-colors duration-200 ease-in-out hover:text-blue-400 sm:text-base"
             href="#about"
