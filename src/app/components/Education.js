@@ -19,7 +19,7 @@ const Education = () => {
   };
   return (
     <div className="flex flex-col items-center justify-center border-blue-600">
-      <Timeline ref={ref}>
+      <Timeline className="flex flex-col" ref={ref}>
         {education.map((education, index) => (
           <motion.div
             key={index}
@@ -31,9 +31,9 @@ const Education = () => {
           >
             {" "}
             <TimelineItem>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
+              <div className="py-[12px] px-2">
                 <EducationCard education={education} />
-              </TimelineContent>
+              </div>
               <TimelineSeparator>
                 <TimelineDot
                   variant="outlined"
