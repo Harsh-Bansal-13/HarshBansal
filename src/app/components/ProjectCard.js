@@ -13,7 +13,7 @@ const ProjectCard = ({ project, setOpenModal }) => {
       <div className="flex flex-wrap w-full items-center gap-2 my-3 px-2">
         {project.tags.map((tag) => (
           <div
-            className=" text-xs font-normal py-1 px-2 rounded-lg p-2 border-blue-500 border-2 text-blue-400"
+            className=" text-xs font-normal py-1 px-2 rounded-lg p-2 border-blue-500 border-2 text-blue-400 hover:text-white hover:bg-blue-500"
             key={tag}
           >
             {tag}
@@ -32,7 +32,7 @@ const ProjectCard = ({ project, setOpenModal }) => {
       <div className="flex flex-wrap justify-start items-center gap-2 px-2">
         {project.github !== "" && (
           <motion.button
-            className="text-sm rounded-lg px-2 py-1 border-blue-500 border-2"
+            className="text-sm rounded-lg px-2 py-1 border-blue-500 border-2 hover:text-white hover:bg-blue-500"
             href={project.github}
             target="_blank"
           >
@@ -43,7 +43,7 @@ const ProjectCard = ({ project, setOpenModal }) => {
         )}
         {project.webapp && (
           <motion.button
-            className="text-sm rounded-lg px-2 py-1 border-blue-500 border-2"
+            className="text-sm rounded-lg px-2 py-1 border-blue-500 border-2 hover:text-white hover:bg-blue-500"
             href={project.webapp}
             target="display"
           >

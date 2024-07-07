@@ -36,7 +36,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
           <div className="flex flex-wrap w-full items-center gap-2 mt-3 p-2">
             {project.tags.map((tag) => (
               <div
-                className=" text-xs font-normal py-1 px-2 rounded-lg p-2 border-blue-500 border-2 text-blue-400"
+                className=" text-xs font-normal py-1 px-2 rounded-lg p-2 border-blue-500 border-2 text-blue-400 hover:text-white hover:bg-blue-500"
                 key={tag}
               >
                 {tag}
@@ -50,7 +50,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
             {project.github !== "" && (
               <motion.button
                 whileTap={{ scale: 0.9 }}
-                className="flex items-center justify-center w-full rounded-lg px-6 py-2 border-blue-500 border-2"
+                className="flex items-center justify-center w-full rounded-lg px-6 py-2 border-blue-500 border-2 hover:text-white hover:bg-blue-500"
                 href={project.github}
                 target="_blank"
               >
@@ -63,7 +63,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
             {project.webapp !== "" && (
               <motion.button
                 whileTap={{ scale: 0.9 }}
-                className="flex items-center justify-center w-full rounded-lg px-6 py-2 border-blue-500 border-2"
+                className="flex items-center justify-center w-full rounded-lg px-6 py-2 border-blue-500 border-2 hover:text-white hover:bg-blue-500"
                 href={project.webapp}
                 target="_blank"
               >
