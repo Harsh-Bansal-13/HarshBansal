@@ -388,8 +388,8 @@ export const projects = [
     ],
 
     category: "web app",
-    github: "https://dailyjournal-5wt1.onrender.com/",
-    webapp: "https://help4animals.onrender.com/",
+    github: "https://github.com/Harsh-Bansal-13/Daily_Journal",
+    webapp: "https://dailyjournal-5wt1.onrender.com/",
   },
   {
     id: 3,
