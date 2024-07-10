@@ -55,7 +55,7 @@ const AboutSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-1 mb-10 mx-auto h-full w-full md:flex md:items-center md:justify-center lg:items-start lg:justify-start"
+          className="col-span-1 mb-10 mx-auto h-full w-full md:flex md:items-start md:justify-center lg:items-start lg:justify-start"
         >
           <motion.div
             animate={controls}
