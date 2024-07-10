@@ -49,7 +49,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-lg hover-scale">
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-lg">
             {Bio.description}
           </p>
           <div>
