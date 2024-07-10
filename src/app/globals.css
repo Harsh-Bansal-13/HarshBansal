@@ -29,6 +29,36 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+/* styles.css */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: screen; /* Blend mode to adjust visibility against different backgrounds */
+  background-color: transparent;
+  border: 2px solid #3b82f6; /* Border color */
+  transition: transform 0.1s ease-out; /* Optional: add transition for smooth movement */
+}
+/* styles.css */
+.mix-blend-difference {
+  mix-blend-mode: screen;
+}
+
+.cursor-text{
+  font-size: 5px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  display: none;
+}
 
 @layer utilities {
   .text-balance {
