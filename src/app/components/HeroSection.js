@@ -57,7 +57,7 @@ const HeroSection = () => {
               whileTap={{ scale: 0.9 }}
               className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-800 text-white"
             >
-              <Link href={"#contact"}>Hire Me</Link>
+              <Link href="#contact">Hire Me</Link>
             </motion.button>
             <motion.button
               whileTap={{ scale: 0.9 }}
