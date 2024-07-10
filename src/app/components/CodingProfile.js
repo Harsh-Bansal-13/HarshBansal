@@ -55,7 +55,7 @@ const CodingProfile = () => {
       <h2 className="text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-blue-500 to-blue-800 text-3xl font-bold mb-20">
         Coding Profiles
       </h2>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="md:px-5 grid md:grid-cols-3 gap-8 md:gap-12">
         {projectsData.map((project, index) => (
           <motion.li
             key={index}
