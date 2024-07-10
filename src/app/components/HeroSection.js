@@ -28,7 +28,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.3 }}
-          className="col-span-7 place-self-center text-center sm:text-left"
+          className="col-span-7 place-self-center text-center lg:mr-[40px] sm:text-left"
         >
           <h1 className="text-white mb-4 text-5xl lg:text-7xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-blue-500 to-blue-800">
