@@ -16,6 +16,8 @@
     "@mui/icons-material": "^5.15.20",
     "@mui/lab": "^5.0.0-alpha.130",
     "@mui/material": "^5.15.20",
+    "@react-three/drei": "^9.108.3",
+    "@react-three/fiber": "^8.16.8",
     "@tailwindcss/line-clamp": "^0.4.4",
     "dotenv": "^16.4.5",
     "emailjs-com": "^3.2.0",

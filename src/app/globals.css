@@ -48,6 +48,11 @@ body {
   border: 2px solid #3b82f6; /* Border color */
   transition: transform 0.1s ease-out; /* Optional: add transition for smooth movement */
 }
+.custom-Background {
+ 
+  z-index: -9999;
+/* Optional: add transition for smooth movement */
+}
 /* styles.css */
 .mix-blend-difference {
   mix-blend-mode: screen;
