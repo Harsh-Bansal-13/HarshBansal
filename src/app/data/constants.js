@@ -252,7 +252,7 @@ export const experiences = [
            • Unit and Integration Testing: Authored unit and integration tests for Dropwizard APIs using JUnit and Karate, ensuring high reliability and achieving 80% code coverage.
            • Automated Frontend Testing: Engineered WebdriverIO scripts for frontend testing, boosting automation coverage by 60% and cutting manual testing by 40%, enhancing product reliability and developer efficiency.`,
 
-    doc: "-",
+    doc: "https://drive.google.com/file/d/13sCfz0kb335VbArgtHqCphoJfcbtbyjY/view?usp=sharing",
   },
   {
     id: 1,

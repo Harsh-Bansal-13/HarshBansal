@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import styled from "styled-components";
 
@@ -137,6 +138,12 @@ const ExperienceCard = ({ education }) => {
           <Degree>{education.role}</Degree>
           <Date>{education.date}</Date>
         </Body>
+        {education.doc !== "-" && (
+          <Link href={education.doc} target="_blank">
+            {" "}
+            <i class="fi fi-rr-folder-download text-blue-500 text-lg"></i>
+          </Link>
+        )}
       </Top>
       <Description>
         <ul type="disc" className="flex flex-col gap-2 text-white">

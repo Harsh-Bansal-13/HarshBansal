@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,8 +11,22 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en bg-gradient-to-br from-gray-900 via-gray-950 to-gray-900">
-      <body className={inter.className}>{children}</body>
+    <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn-uicons.flaticon.com/2.4.2/uicons-solid-rounded/css/uicons-solid-rounded.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css"
+        ></link>
+      </head>
+      <body
+        className={`${inter.className} bg-gradient-to-br from-gray-900 via-gray-950 to-gray-900`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
