@@ -15,18 +15,17 @@ const CodingProfile = () => {
       tag: ["All", "Mobile"],
       gitUrl: "/",
       previewUrl: "https://leetcode.com/u/Harsh_Bansal_13/",
-    }
-    ,
-    // {
-    //   id: 1,
-    //   title: "CodeForces",
-    //   description: "Project 1 description",
-    //   image:
-    //     "https://res.cloudinary.com/djearclq9/image/upload/v1718644274/prvcqordbmyj4kwlwzfm.png",
-    //   tag: ["All", "Web"],
-    //   gitUrl: "/",
-    //   previewUrl: "https://codeforces.com/profile/coder_dude_13",
-    // },
+    },
+    {
+      id: 1,
+      title: "CodeForces",
+      description: "Project 1 description",
+      image:
+        "https://res.cloudinary.com/djearclq9/image/upload/v1718644274/prvcqordbmyj4kwlwzfm.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "https://codeforces.com/profile/coder_dude_13",
+    },
     {
       id: 2,
       title: "Codechef",
