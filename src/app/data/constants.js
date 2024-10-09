@@ -5,7 +5,7 @@ export const Bio = {
     " I am a pre-final year BTech student at NIT Kurukshetra, specializing in Information Technology. I am passionate about problem-solving and continuously seeking new knowledge and experiences. I thrive onchallenging projects and enjoy exploring innovative solutions.Beyond my academic and professional pursuits, I find motivation and strength in spending quality time with my family and friends. This balance inspires me to excel in all aspects of my life.",
   github: "https://github.com/Harsh-Bansal-13",
   resume:
-    "https://drive.google.com/file/d/13xTJOWO2YabcKDtxycrW1mx1yOWVzlRN/view?usp=sharing",
+    "https://drive.google.com/file/d/1QWc7GeL8fYYWz8sjIYxn-XzmM4ABKepY/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/harsh-bansal-296805229/",
   twitter: "https://x.com/Harsh_Bansal_13",
   insta: "-",
