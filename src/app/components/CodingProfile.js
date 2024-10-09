@@ -36,15 +36,15 @@ const CodingProfile = () => {
       gitUrl: "/",
       previewUrl: "https://www.codechef.com/users/coder_guy_13",
     },
-    // {
-    //   id: 3,
-    //   title: "GeeksforGeeks",
-    //   description: "Project 3 description",
-    //   image:
-    //     "https://res.cloudinary.com/djearclq9/image/upload/v1718644285/gdbhkkwoludqohqehhr2.png",
-    //   tag: ["All", "Web"],
-    //   previewUrl: "https://www.geeksforgeeks.org/user/harshbansal1717/",
-    // },
+    {
+      id: 3,
+      title: "GeeksforGeeks",
+      description: "Project 3 description",
+      image:
+        "https://res.cloudinary.com/djearclq9/image/upload/v1718644285/gdbhkkwoludqohqehhr2.png",
+      tag: ["All", "Web"],
+      previewUrl: "https://www.geeksforgeeks.org/user/harshbansal1717/",
+    },
   ];
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
