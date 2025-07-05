@@ -321,6 +321,8 @@ message recommendations while typing.
       "Bcrypt",
       "Jwt",
       "Chakra-ui",
+      "Gemini API (Generative AI)", 
+      "REST APIs", 
     ],
     category: "web app",
     github: "https://github.com/Harsh-Bansal-13/TalkTrail",
