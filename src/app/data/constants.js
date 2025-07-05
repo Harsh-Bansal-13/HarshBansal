@@ -304,10 +304,14 @@ export const projects = [
     id: 0,
     title: "Talk Trail",
     date: "May 2024",
-    description:
-      "Created and Implemented a fully functional chat application that supports real-time single and group chats. The application includes robust features for user authentication, encompassing secure login/signup processes, password recovery functionalities, and user profile management. To facilitate instant message delivery and ensure real-time updates, I integrated Socket.io into the application, enhancing the communication experience with responsive and interactive messaging capabilities. This project demonstrates my proficiency in full-stack development, utilizing technologies such as Socket.io for real-time communication and emphasizing secure authentication and user management practices.",
-    image:
-      "http://res.cloudinary.com/djearclq9/image/upload/v1718626422/y5qams8vgtizko9jwulj.jpg",
+    description: `• Built a full-stack real-time chat application supporting one-on-one and group messaging using React.js, Express.js, and Socket.io.
+• Integrated secure authentication features including JWT-based login, signup, password recovery, and profile updates.
+• Enhanced the messaging experience by integrating Gemini API to provide intelligent, context-aware chat suggestions and
+message recommendations while typing.
+• Implemented functionality to generate chat summaries on demand and download them as text files for easy reference.
+• Leveraged Socket.io for real-time messaging and updates, ensuring a smooth and interactive user experience.
+• Designed a fully responsive interface using Chakra UI, ensuring seamless usability across devices.`,
+     image:  "http://res.cloudinary.com/djearclq9/image/upload/v1718626422/y5qams8vgtizko9jwulj.jpg",
     tags: [
       "Socket.io",
       "React js",
